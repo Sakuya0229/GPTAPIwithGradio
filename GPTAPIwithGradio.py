@@ -71,12 +71,12 @@ def export_customized(chatbot: List[Tuple[str, str]]) -> None:
 
     '''
     target = {"chatbot": chatbot}
-    with open("part3.json", "w") as file:
+    with open("hsitory.json", "w") as file:
         json.dump(target, file)
 
 # this part constructs the Gradio UI interface
 with gr.Blocks() as demo:
-    gr.Markdown("# Part3: Customized task\nThe chatbot is able to perform a certain task. Try to interact with it!!")
+    gr.Markdown("# Chat with ChatGPT API!")
     chatbot = gr.Chatbot()
     previous_id = gr.State()
     input_textbox = gr.Textbox(label="Input")
