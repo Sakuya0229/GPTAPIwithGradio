@@ -5,7 +5,7 @@ See [OpenAI Docs](https://platform.openai.com/docs/libraries?desktop-os=windows)
 - sent_button: send your commnad to chatGPT API.
 - reset_button: reset your chatbot, also reset the memory of chat history.
 - export_button: export chat history to json file.
-## Reference
+# Reference
 - https://www.youtube.com/@HungyiLeeNTU/featured
 - https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php
 - https://docs.google.com/presentation/d/1fAXUpvAxmTQEQrIhJxcPz4AlAhY5hLsC6b9p5TrMAIU/edit?slide=id.g2aefc017252_0_465#slide=id.g2aefc017252_0_465
